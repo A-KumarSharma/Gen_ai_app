@@ -1,0 +1,217 @@
+{
+    "platforms": [
+        {
+            "name": "Hugging Face Space",
+            "features": {
+                "free_version": {
+                    "available_features": [
+                        "Host unlimited public models, datasets",
+                        "Free CPUs",
+                        "Create unlimited orgs with no member limits",
+                        "Access the latest ML tools and open source",
+                        "Community support"
+                    ],
+                    "limits": "Limited storage and compute for free tier",
+                    "processing_cost": "Free",
+                    "storage_cost": "Free",
+                    "comments": "Integrates with Gradio/Streamlit."
+                },
+                "enterprise_hub": {
+                    "cost": "$20 per user",
+                    "available_features": [
+                        "SSO and SAML support",
+                        "Select data location with Storage Regions",
+                        "Centralized token control and approval",
+                        "Dataset Viewer for private datasets",
+                        "Advanced compute options for Spaces"
+                    ],
+                    "comments": "Enterprise security and fully-managed autoscaling."
+                }
+            }
+        },
+        {
+            "name": "Replicate",
+            "features": {
+                "public_models": {
+                    "trial_access": "Free trials available for featured models",
+                    "processing_cost": "Charged only for active processing time",
+                    "storage_cost": "No information provided",
+                    "pros": [
+                        "Cost efficiency for public models",
+                        "Flexibility with deployments",
+                        "Fast booting fine-tunes"
+                    ],
+                    "cons": [
+                        "No free access to advanced features",
+                        "Higher costs for private models/deployments",
+                        "Limited free tier"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Modal Labs",
+            "features": {
+                "serverless_compute": {
+                    "free_credits": "$30/month for new users",
+                    "processing_cost": {
+                        "cpu": "$0.192/core/hour",
+                        "memory": "$0.024/GB/hour",
+                        "gpu": {
+                            "A100_40GB": "$1.89/hour",
+                            "A100_80GB": "$2.59/hour",
+                            "H100_80GB": "$3.99/hour"
+                        }
+                    },
+                    "comments": [
+                        "Usage-based pricing ensures you only pay for actual compute",
+                        "Developer-friendly Python-first approach"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Banana Dev",
+            "features": {
+                "serverless_gpu_hosting": {
+                    "free_trial": "Credit-based trial for new users",
+                    "processing_cost": "Flat rate plus compute costs",
+                    "comments": [
+                        "Easy deployment with minimal code",
+                        "Competitive pricing for high-end GPUs"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Google Cloud Platform",
+            "features": {
+                "free_trial": {
+                    "credit": "$300 for 90 days",
+                    "free_tier": {
+                        "products": [
+                            "1 e2-micro VM",
+                            "5 GB standard storage",
+                            "2 million requests for Cloud Run"
+                        ]
+                    },
+                    "comments": [
+                        "Generous free trial for broad exploration",
+                        "AI and ML support with free access to Vertex AI"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Microsoft Azure",
+            "features": {
+                "free_account": {
+                    "credit": "$200 for 30 days",
+                    "free_tier": {
+                        "services": [
+                            "750 hours/month B1S VM",
+                            "5 GB LRS hot tier storage"
+                        ]
+                    },
+                    "comments": [
+                        "Generous free offerings for experimentation",
+                        "Flexible Azure Plan simplifies management"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Amazon Web Services",
+            "features": {
+                "free_tier": {
+                    "credit": "$300 for 12 months",
+                    "services": [
+                        "750 hours/month t2.micro EC2",
+                        "5 GB standard S3 storage"
+                    ],
+                    "comments": [
+                        "Extensive free tier for broad experimentation",
+                        "Scalability for workloads from small apps to enterprise systems"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Vercel",
+            "features": {
+                "hobby_plan": {
+                    "free": "Automatic CI/CD for personal projects",
+                    "limits": {
+                        "compute": "100 GB-hours/month",
+                        "bandwidth": "100 GB/month"
+                    },
+                    "comments": [
+                        "Generous free tier for personal projects",
+                        "Ease of use with zero-config deployments"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Railway App",
+            "features": {
+                "trial_plan": {
+                    "credit": "$5 one-time credit",
+                    "limits": {
+                        "cpu": "1 vCPU per service",
+                        "ram": "1 GB per service"
+                    },
+                    "comments": [
+                        "Generous trial for testing full platform features",
+                        "Ease of use with GitHub/Docker integration"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Render",
+            "features": {
+                "free_plan": {
+                    "limits": {
+                        "compute": "750 instance hours/month",
+                        "bandwidth": "100 GB/month"
+                    },
+                    "comments": [
+                        "Robust free tier for personal projects",
+                        "Usage-based pricing for active resources"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Heroku",
+            "features": {
+                "eco_plan": {
+                    "limits": {
+                        "dyno_hours": "1,000 hours/month",
+                        "ram": "512 MB per dyno"
+                    },
+                    "comments": [
+                        "Ease of deployment with Git-based deploys",
+                        "Managed platform with no server management"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Cloudflare",
+            "features": {
+                "workers_free_plan": {
+                    "limits": {
+                        "requests": "100,000 requests/day",
+                        "cpu_time": "10 ms/request"
+                    },
+                    "comments": [
+                        "Generous free tier for prototyping",
+                        "Global scale with low-latency apps"
+                    ]
+                }
+            }
+        }
+    ]
+}
